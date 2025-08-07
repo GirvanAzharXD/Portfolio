@@ -227,7 +227,7 @@ Contributions, issues, and feature requests are welcome! Feel free to:
 - 💼 LinkedIn: [Mochamad Girvan Azhar](https://www.linkedin.com/in/girvanazhar/)
 - 🐙 GitHub: [@GirvanAzharXD](https://github.com/GirvanAzharXD)
 - 📸 Instagram: [@girvanazhar](https://www.instagram.com/girvanazhar/)
-- 🌐 Portfolio: [Live Website](https://your-portfolio-url.vercel.app)
+- 🌐 Portfolio: [Live Website](https://girvanazhar.vercel.app/)
 
 ---
 
