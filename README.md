@@ -137,8 +137,8 @@ This project is optimized for **Vercel** deployment with automatic CI/CD:
 
 ```
 Portfolio/
-├── public/                    # Static assets
-│   ├── certificates/          # Certificate PDFs & images
+├── public/                   # Static assets
+│   ├── certificates/         # Certificate PDFs & images
 │   └── vite.svg              # Vite logo
 ├── src/
 │   ├── components/           # React components
@@ -156,7 +156,7 @@ Portfolio/
 │   ├── EMAILJS_SETUP.md     # EmailJS setup guide
 │   └── VERCEL_DEPLOYMENT.md # Deployment guide
 ├── vercel.json              # Vercel configuration
-├── .env.example             # Environment variables template
+├── .env.local               # Environment variables template
 └── README.md                # This file
 ```
 
