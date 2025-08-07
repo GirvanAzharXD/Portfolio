@@ -164,14 +164,14 @@ const Certifications = () => {
     },
     {
         id: 14,
-        title: 'Junior Web Developer',
+        title: 'Sertifikat Kompetensi - Computer Programming',
         issuer: 'BNSP (Badan Nasional Sertifikasi Profesi)',
         date: '2022',
         category: 'Professional Certification',
-        type: 'Professional License',
-        description: 'National professional certification for Junior Web Developer, validating competency in web development according to Indonesian national standards.',
-        skills: ['Web Development', 'Professional Standards', 'Industry Competency', 'National Certification'],
-        credentialUrl: 'https://www.dicoding.com/certificates/N9ZO9WN66XG5',
+        type: 'Competency Certificate',
+        description: 'National competency certificate in Computer Programming, validating professional skills and competency in programming fundamentals, algorithm development, and software development according to Indonesian national standards.',
+        skills: ['Computer Programming', 'Programming Competency', 'Algorithm Development', 'Professional Standards'],
+        credentialUrl: 'https://drive.google.com/file/d/1WdNJ6iJ3ROI2SjL6fxT_HPdKcRIvDNzR/view?usp=sharing',
         image: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
         color: 'from-yellow-500 to-orange-500'
     },
@@ -184,7 +184,7 @@ const Certifications = () => {
         type: 'Work Experience',
         description: 'Internship completion certificate demonstrating practical experience in software development, team collaboration, and professional work environment.',
         skills: ['Software Development', 'Team Collaboration', 'Professional Experience', 'Project Management'],
-        credentialUrl: 'https://www.dicoding.com/certificates/N9ZO9WN66XG5',
+        credentialUrl: 'https://drive.google.com/file/d/1tLDUh378N7UASqvqeDOzlTQ-u7cDQYo4/view?usp=sharing',
         image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
         color: 'from-gray-500 to-slate-600'
     },
