@@ -197,7 +197,7 @@ const Certifications = () => {
         type: 'Intensive Program',
         description: 'Comprehensive machine learning bootcamp covering advanced algorithms, deep learning, model deployment, and real-world ML projects.',
         skills: ['Machine Learning', 'Deep Learning', 'Python', 'TensorFlow', 'Model Deployment'],
-        credentialUrl: 'https://example.com/ml-bootcamp-certificate',
+        credentialUrl: 'https://drive.google.com/file/d/155Th72IiF_MbRKcnw1lCASC1Yio6eXAN/view?usp=sharing',
         image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
         color: 'from-pink-400 to-pink-600'
     },
