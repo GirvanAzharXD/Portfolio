@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio Website
 
 A modern, responsive portfolio website built with React, Vite, Tailwind CSS, and Framer Motion.
