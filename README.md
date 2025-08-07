@@ -76,7 +76,7 @@ Modern, responsive portfolio website built with React, Vite, Tailwind CSS, and F
    cp .env.example .env.local
    
    # Edit .env.local with your EmailJS credentials
-   # See EMAILJS_SETUP.md for detailed instructions
+   # Visit https://emailjs.com for setup instructions
    ```
 
 4. **Start development server**
@@ -110,7 +110,7 @@ The contact form uses **EmailJS** to send emails directly without a backend serv
 4. **Get credentials**: Service ID, Template ID, Public Key
 5. **Update**: `src/config/emailjs.js` with your credentials
 
-📖 **Detailed guide**: See [EMAILJS_SETUP.md](./EMAILJS_SETUP.md)
+📖 **Setup guide**: Visit https://emailjs.com for complete documentation
 
 ## 🌐 Deployment
 
@@ -126,7 +126,7 @@ This project is optimized for **Vercel** deployment with automatic CI/CD:
 4. **Add Environment Variables** (optional for EmailJS security)
 5. **Deploy** 🚀
 
-📖 **Complete guide**: See [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md)
+📖 **Deployment guide**: Visit https://vercel.com/docs for complete instructions
 
 ### Other Platforms:
 - **Netlify**: Drag & drop `dist` folder after `npm run build`
@@ -137,8 +137,8 @@ This project is optimized for **Vercel** deployment with automatic CI/CD:
 
 ```
 Portfolio/
-├── public/                   # Static assets
-│   ├── certificates/         # Certificate PDFs & images
+├── public/                    # Static assets
+│   ├── certificates/          # Certificate PDFs & images
 │   └── vite.svg              # Vite logo
 ├── src/
 │   ├── components/           # React components
@@ -152,11 +152,9 @@ Portfolio/
 │   ├── assets/              # Images, fonts, icons
 │   ├── App.jsx              # Main app component
 │   └── main.jsx             # Entry point
-├── docs/                    # Documentation
-│   ├── EMAILJS_SETUP.md     # EmailJS setup guide
-│   └── VERCEL_DEPLOYMENT.md # Deployment guide
+├── docs/                    # Documentation (if any)
 ├── vercel.json              # Vercel configuration
-├── .env.local               # Environment variables template
+├── .env.example             # Environment variables template
 └── README.md                # This file
 ```
 
