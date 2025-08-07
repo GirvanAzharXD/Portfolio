@@ -9,8 +9,12 @@ import Certifications from './components/Certifications';
 import Journey from './components/Journey';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { usePerformanceMonitor } from './hooks/usePerformance';
 
 function App() {
+  // Enable performance monitoring
+  usePerformanceMonitor();
+
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       <Header />
