@@ -49,7 +49,6 @@ Modern, responsive portfolio website built with React, Vite, Tailwind CSS, and F
 - **Bundle Size**: Optimized ~376KB (gzipped: ~115KB)
 - **EmailJS Integration**: Contact form sends emails directly without backend
 - **Smooth Animations**: GPU-accelerated animations with Framer Motion
-- **SEO Ready**: Structured data and meta tags for search optimization
 
 ## 🚀 Getting Started
 
@@ -225,8 +224,9 @@ Contributions, issues, and feature requests are welcome! Feel free to:
 
 **Mochamad Girvan Azhar**
 - 📧 Email: girvanazharr@gmail.com
-- 💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- 💼 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/girvanazhar/)
 - 🐙 GitHub: [@GirvanAzharXD](https://github.com/GirvanAzharXD)
+- 📸 Instagram: [@girvanazhar](https://www.instagram.com/girvanazhar/)
 - 🌐 Portfolio: [Live Website](https://your-portfolio-url.vercel.app)
 
 ---
