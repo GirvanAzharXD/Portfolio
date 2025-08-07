@@ -140,6 +140,8 @@ const Projects = () => {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label={`View ${project.title} source code on GitHub`}
+                      title={`${project.title} - GitHub Repository`}
                       className="flex items-center gap-1.5 sm:gap-2 text-gray-300 hover:text-white transition-colors duration-200 text-sm sm:text-base"
                       whileHover={{ scale: 1.05 }}
                     >
@@ -150,6 +152,8 @@ const Projects = () => {
                       href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label={`View ${project.title} live demo`}
+                      title={`${project.title} - Live Demo`}
                       className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors duration-200"
                       whileHover={{ scale: 1.05 }}
                     >
@@ -212,6 +216,8 @@ const Projects = () => {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label={`View ${project.title} source code on GitHub`}
+                      title={`${project.title} - GitHub Repository`}
                       className="text-gray-400 hover:text-white transition-colors duration-200"
                       whileHover={{ scale: 1.1 }}
                     >
@@ -221,6 +227,8 @@ const Projects = () => {
                       href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label={`View ${project.title} live demo`}
+                      title={`${project.title} - Live Demo`}
                       className="text-gray-400 hover:text-white transition-colors duration-200"
                       whileHover={{ scale: 1.1 }}
                     >

@@ -262,6 +262,9 @@ const Header = () => {
           <div className="md:hidden">
             <motion.button
               onClick={() => setIsOpen(!isOpen)}
+              aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
+              aria-expanded={isOpen}
+              title={isOpen ? "Close menu" : "Open menu"}
               className={`text-white transition-all duration-300 rounded-full hover:bg-white/10 ${
                 scrolled ? 'p-2' : 'p-3'
               }`}

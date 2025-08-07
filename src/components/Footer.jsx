@@ -17,6 +17,8 @@ const Footer = () => {
           {/* Back to Top Button */}
           <motion.button
             onClick={scrollToTop}
+            aria-label="Scroll back to top of page"
+            title="Back to top"
             className="p-3 bg-gray-800 hover:bg-gray-700 text-gray-400 hover:text-white border-gray-700 hover:border-blue-400 rounded-full border transition-all duration-300 shadow-md"
             whileHover={{ scale: 1.1, y: -2 }}
             whileTap={{ scale: 0.95 }}

@@ -302,6 +302,8 @@ Pesan ini dikirim dari form contact portfolio website.
                     href={social.url}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={`Visit my ${social.name} profile`}
+                    title={`Connect with me on ${social.name}`}
                     className={`p-3 bg-gray-800 text-gray-400 rounded-lg border border-gray-700 hover:bg-gray-700 ${social.color} transition-all duration-300`}
                     whileHover={{ scale: 1.1, y: -2 }}
                     whileTap={{ scale: 0.95 }}
