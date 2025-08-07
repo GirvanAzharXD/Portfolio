@@ -136,8 +136,8 @@ This project is optimized for **Vercel** deployment with automatic CI/CD:
 
 ```
 Portfolio/
-├── public/                    # Static assets
-│   ├── certificates/          # Certificate PDFs & images
+├── public/                   # Static assets
+│   ├── certificates/         # Certificate PDFs & images
 │   └── vite.svg              # Vite logo
 ├── src/
 │   ├── components/           # React components
@@ -153,7 +153,7 @@ Portfolio/
 │   └── main.jsx             # Entry point
 ├── docs/                    # Documentation (if any)
 ├── vercel.json              # Vercel configuration
-├── .env.example             # Environment variables template
+├── .env.local               # Environment variables template
 └── README.md                # This file
 ```
 
@@ -224,7 +224,7 @@ Contributions, issues, and feature requests are welcome! Feel free to:
 
 **Mochamad Girvan Azhar**
 - 📧 Email: girvanazharr@gmail.com
-- 💼 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/girvanazhar/)
+- 💼 LinkedIn: [Mochamad Girvan Azhar](https://www.linkedin.com/in/girvanazhar/)
 - 🐙 GitHub: [@GirvanAzharXD](https://github.com/GirvanAzharXD)
 - 📸 Instagram: [@girvanazhar](https://www.instagram.com/girvanazhar/)
 - 🌐 Portfolio: [Live Website](https://your-portfolio-url.vercel.app)
