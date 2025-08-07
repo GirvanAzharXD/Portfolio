@@ -84,7 +84,6 @@ const Hero = () => {
             <ArrowDown size={16} className="sm:w-[18px] sm:h-[18px]" />
           </motion.a>
           
-          {/* CV button temporarily commented out until CV is ready 
           <motion.a
             href="/resume.pdf"
             download
@@ -95,7 +94,6 @@ const Hero = () => {
             Download CV
             <Download size={16} className="sm:w-[18px] sm:h-[18px]" />
           </motion.a>
-          */}
         </motion.div>
       </motion.div>
 
