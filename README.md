@@ -1,60 +1,59 @@
-# 🌟 Portfolio Website - Mochamad Girvan Azhar
+# Portfolio — Mochamad Girvan Azhar
 
-Modern, responsive portfolio website built with React, Vite, Tailwind CSS, and Framer Motion.
+Personal portfolio of Mochamad Girvan Azhar, Informatics graduate from Universitas Gunadarma,
+focused on Data Analysis, Machine Learning, and Software Development.
 
-## 🚀 Live Demo
+## Live Demo
 
-**🔗 [View Live Portfolio](https://girvanazhar.vercel.app/)**
+**[girvanazhar.vercel.app](https://girvanazhar.vercel.app/)**
 
-## ✨ Features
+## Design
 
-- 🎨 **Modern Design**: Clean, professional, and eye-catching with dark theme
-- 📱 **Fully Responsive**: Perfect on desktop, tablet, and mobile devices
-- ⚡ **Fast Performance**: Built with Vite for lightning-fast loading
-- 🎭 **Smooth Animations**: Framer Motion for beautiful transitions and micro-interactions
-- 📧 **Working Contact Form**: Direct email integration with EmailJS (no backend required)
-- 🌙 **Dark Theme**: Elegant dark theme with blue, purple, cyan gradient accents
-- ♿ **Accessible**: WCAG compliant design principles
+Dark, refined, editorial-style design:
 
-## 🛠️ Tech Stack
+- Near-black background with warm off-white text and a single vermilion accent
+- Instrument Serif for display headings, Inter for body text, JetBrains Mono for labels
+- Left-aligned sections with numbered mono kickers and hairline dividers
+- Light parallax (Framer Motion `useScroll`) on the hero and project images — no heavy 3D libraries
+- No gradients, no glassmorphism, no decorative floating shapes
+- GA serif monogram as the header logo and site favicon
 
-- **Framework**: React 19.1.0
-- **Build Tool**: Vite 7.0.6
-- **Styling**: Tailwind CSS 3.4.17
-- **Animations**: Framer Motion 12.23.12
+## Features
+
+- Fully responsive layout, mobile-first
+- Smooth, restrained reveal animations (fade + small rise, once per element)
+- Working contact form via EmailJS (no backend required)
+- Project showcase with live demos and source code links
+- Certifications list, including BNSP competency certifications
+- Reduced-motion support (`prefers-reduced-motion` is respected)
+
+## Tech Stack
+
+- **Framework**: React 19
+- **Build Tool**: Vite 7
+- **Styling**: Tailwind CSS 3
+- **Animations**: Framer Motion 12
 - **Icons**: Lucide React
 - **Email Service**: EmailJS
-- **Fonts**: Inter (Google Fonts)
+- **Fonts**: Instrument Serif, Inter, JetBrains Mono (Google Fonts)
 - **Deployment**: Vercel
 
-## 📋 Portfolio Sections
+## Sections
 
-1. **🏠 Hero/Home** - Personal introduction with animated MGA logo and call-to-action
-2. **👨‍💻 About** - Background, interests, and professional overview  
-3. **🚀 Projects** - Showcase of development projects with live demos and source code
-4. **⚡ Skills** - Technical skills and technologies with interactive displays
-5. **🎓 Journey** - Professional timeline, education, and career milestones
-6. **📧 Contact** - Working contact form with direct email integration
+1. **Hero** — Short introduction with CV link
+2. **About** — Background, experience, and current focus
+3. **Projects** — Selected work with live demos and source code
+4. **Skills** — Technologies grouped by area
+5. **Certifications** — Filterable list of credentials
+6. **Journey** — Education and career timeline
+7. **Contact** — Contact form with EmailJS integration
 
-## 🎯 Key Highlights
-
-### 🎨 Design Features
-- **Custom Logo**: "MGA" typography with gradient effects and connection lines
-- **Responsive Header**: Smooth scrolling navigation with mobile hamburger menu
-- **Typography**: Inter font family for modern, clean readability
-- **Color Scheme**: Professional blue, purple, cyan gradient theme
-- **Layout**: Mobile-first responsive design approach
-
-### ⚡ Performance & Functionality
-- **Bundle Size**: Optimized ~376KB (gzipped: ~115KB)
-- **EmailJS Integration**: Contact form sends emails directly without backend
-- **Smooth Animations**: GPU-accelerated animations with Framer Motion
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
-- Node.js 18+ 
-- npm or yarn
+
+- Node.js 18+
+- npm
 
 ### Installation
 
@@ -69,21 +68,12 @@ Modern, responsive portfolio website built with React, Vite, Tailwind CSS, and F
    npm install
    ```
 
-3. **Setup EmailJS for contact form**
-   ```bash
-   # Copy environment template
-   cp .env.example .env.local
-   
-   # Edit .env.local with your EmailJS credentials
-   # Visit https://emailjs.com for setup instructions
-   ```
-
-4. **Start development server**
+3. **Start the development server**
    ```bash
    npm run dev
    ```
 
-5. **Open browser**
+4. **Open in browser**
    ```
    http://localhost:3000
    ```
@@ -94,100 +84,80 @@ Modern, responsive portfolio website built with React, Vite, Tailwind CSS, and F
 # Build the project
 npm run build
 
-# Preview production build locally
+# Preview the production build locally
 npm run preview
 ```
 
-## 📧 EmailJS Contact Form Setup
+## Contact Form (EmailJS)
 
-The contact form uses **EmailJS** to send emails directly without a backend server.
+The contact form sends email directly via EmailJS, without a backend server.
 
-### Quick Setup:
-1. **Create account**: https://emailjs.com (free: 1000 emails/month)
-2. **Create email service** (connect with Gmail/Outlook)
-3. **Create email template** with variables: `{{from_name}}`, `{{from_email}}`, `{{message}}`
-4. **Get credentials**: Service ID, Template ID, Public Key
-5. **Update**: `src/config/emailjs.js` with your credentials
+1. Create an account at [emailjs.com](https://emailjs.com) (free tier available)
+2. Connect an email service (e.g. Gmail) and create a template using
+   `{{from_name}}`, `{{from_email}}`, and `{{message}}`
+3. Put the Service ID, Template ID, and Public Key in `src/config/emailjs.js`
 
-📖 **Setup guide**: Visit https://emailjs.com for complete documentation
+## Deployment
 
-## 🌐 Deployment
+This project is configured for **Vercel** (`vercel.json` is included):
 
-This project is optimized for **Vercel** deployment with automatic CI/CD:
+1. Push to GitHub
+2. Import the repository at [vercel.com/import](https://vercel.com/import)
+3. Framework preset: Vite (auto-detected), build command `npm run build`,
+   output directory `dist`
+4. Deploy — every push to the default branch deploys automatically
 
-### Deploy to Vercel:
-1. **Push to GitHub** (already done ✅)
-2. **Import to Vercel**: https://vercel.com/import
-3. **Configure**:
-   - Framework: `Vite` (auto-detected)
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-4. **Add Environment Variables** (optional for EmailJS security)
-5. **Deploy** 🚀
-
-📖 **Deployment guide**: Visit https://vercel.com/docs for complete instructions
-
-### Other Platforms:
-- **Netlify**: Drag & drop `dist` folder after `npm run build`
-- **GitHub Pages**: Use GitHub Actions workflow
-- **Firebase Hosting**: `firebase deploy` after build
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 Portfolio/
-├── public/                   # Static assets
-│   ├── certificates/         # Certificate PDFs & images
-│   └── vite.svg              # Vite logo
+├── public/
+│   ├── favicon.ico / favicon.png  # GA serif monogram favicon
+│   ├── apple-touch-icon.png
+│   ├── logo.png                   # GA serif monogram (transparent, header)
+│   ├── images/                    # Project and journey images
+│   ├── certificates/              # Certificate files
+│   ├── resume.pdf
+│   └── robots.txt
 ├── src/
-│   ├── components/           # React components
-│   │   ├── Header.jsx        # Navigation with MGA logo
-│   │   ├── Contact.jsx       # EmailJS contact form
-│   │   ├── Skills.jsx        # Skills showcase
-│   │   ├── ProjectSection.jsx # Projects display
-│   │   └── ...              # Other components
-│   ├── config/              # Configuration files
-│   │   └── emailjs.js       # EmailJS settings
-│   ├── assets/              # Images, fonts, icons
-│   ├── App.jsx              # Main app component
-│   └── main.jsx             # Entry point
-├── docs/                    # Documentation (if any)
-├── vercel.json              # Vercel configuration
-├── .env.local               # Environment variables template
-└── README.md                # This file
+│   ├── components/
+│   │   ├── Header.jsx             # Navigation with logo mark
+│   │   ├── Hero.jsx               # Introduction + CV link
+│   │   ├── About.jsx              # Background and skills
+│   │   ├── Projects.jsx           # Selected work
+│   │   ├── Skills.jsx             # Skill groups
+│   │   ├── Certifications.jsx     # Credentials with category filter
+│   │   ├── Journey.jsx            # Timeline
+│   │   ├── Contact.jsx            # EmailJS contact form
+│   │   ├── Footer.jsx
+│   │   └── ui.jsx                 # Shared Reveal + SectionHeader
+│   ├── config/
+│   │   └── emailjs.js             # EmailJS credentials
+│   ├── hooks/
+│   │   └── usePerformance.js
+│   ├── utils/
+│   │   └── statsCalculator.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── tailwind.config.js
+├── vite.config.js
+├── vercel.json
+└── README.md
 ```
 
-## 🎨 Customization
+## Customization
 
-### Update Personal Information:
-- **Contact details**: `src/components/Contact.jsx`
-- **About section**: Update bio, skills, interests
-- **Projects**: Add your own projects with links
-- **Journey**: Professional timeline and achievements
-- **Social links**: GitHub, LinkedIn, email
+- **Bio and skills**: `src/components/About.jsx`
+- **Projects**: `src/components/Projects.jsx` (data lives in the same file and is exported as `projectsData`)
+- **Certifications**: `src/components/Certifications.jsx`
+- **Contact details / EmailJS**: `src/components/Contact.jsx` and `src/config/emailjs.js`
+- **Colors and fonts**: `tailwind.config.js` and `src/index.css`
+- **Logo**: replace `public/logo.png` (header) and `public/favicon.*` (browser tab icon)
 
-### Styling:
-- **Colors**: Update Tailwind config in `tailwind.config.js`
-- **Fonts**: Change imports in `src/index.css`
-- **Logo**: Modify MGA logo in `src/components/Header.jsx`
-- **Animations**: Adjust Framer Motion settings
+## Troubleshooting
 
-### Content:
-- **Images**: Replace in `src/assets/images/`
-- **Certificates**: Update PDFs in `public/certificates/`
-- **Resume**: Add/update CV file in `public/`
-
-## 📱 Browser Support
-
-- ✅ Chrome (90+)
-- ✅ Firefox (88+)  
-- ✅ Safari (14+)
-- ✅ Edge (90+)
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
-
-## 🐛 Troubleshooting
-
-### Build Issues:
 ```bash
 # Clear cache and reinstall
 rm -rf node_modules package-lock.json
@@ -195,52 +165,14 @@ npm install
 npm run build
 ```
 
-### EmailJS Issues:
-- Check credentials in `src/config/emailjs.js`
-- Verify domain settings in EmailJS dashboard
-- Check browser console for errors
+EmailJS issues: check the credentials in `src/config/emailjs.js` and the
+browser console for errors.
 
-### Development Issues:
-```bash
-# Restart dev server
-npm run dev
-```
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to:
-
-1. **Fork** the project
-2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)  
-5. **Open** a Pull Request
-
-## 📞 Contact & Author
+## Contact & Author
 
 **Mochamad Girvan Azhar**
-- 📧 Email: girvanazharr@gmail.com
-- 💼 LinkedIn: [Mochamad Girvan Azhar](https://www.linkedin.com/in/girvanazhar/)
-- 🐙 GitHub: [@GirvanAzharXD](https://github.com/GirvanAzharXD)
-- 📸 Instagram: [@girvanazhar](https://www.instagram.com/girvanazhar/)
-- 🌐 Portfolio: [Live Website](https://girvanazhar.vercel.app/)
 
----
-
-## 🎉 Acknowledgments
-
-- **Design Inspiration**: Modern portfolio trends and best practices
-- **Icons**: Lucide React icon library
-- **Animations**: Framer Motion community examples
-- **Email Service**: EmailJS for serverless contact forms
-- **Deployment**: Vercel platform for seamless hosting
-
----
-
-⭐ **If you like this portfolio, please give it a star!** ⭐
-
-Made with ❤️ by Mochamad Girvan Azhar
+- Email: girvanazharr@gmail.com
+- LinkedIn: [Mochamad Girvan Azhar](https://www.linkedin.com/in/girvanazhar/)
+- GitHub: [@GirvanAzharXD](https://github.com/GirvanAzharXD)
+- Portfolio: [girvanazhar.vercel.app](https://girvanazhar.vercel.app/)
