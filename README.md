@@ -4,7 +4,7 @@ Modern, responsive portfolio website built with React, Vite, Tailwind CSS, and F
 
 ## 🚀 Live Demo
 
-**🔗 [View Live Portfolio](https://your-portfolio-url.vercel.app)**
+**🔗 [View Live Portfolio](https://girvanazhar.vercel.app/)**
 
 ## ✨ Features
 

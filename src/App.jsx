@@ -1,4 +1,5 @@
 import React from 'react';
+import { MotionConfig } from 'framer-motion';
 import './index.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -16,19 +17,21 @@ function App() {
   usePerformanceMonitor();
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Skills />
-        <Certifications />
-        <Journey />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <MotionConfig reducedMotion="user">
+      <div className="min-h-screen bg-ink font-sans text-paper antialiased">
+        <Header />
+        <main>
+          <Hero />
+          <About />
+          <Projects />
+          <Skills />
+          <Certifications />
+          <Journey />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </MotionConfig>
   );
 }
 
