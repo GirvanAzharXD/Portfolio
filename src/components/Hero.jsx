@@ -68,7 +68,7 @@ const Hero = () => {
               variants={itemVariants}
               className="mt-6 max-w-2xl text-lg leading-relaxed text-muted md:text-xl"
             >
-              Informatics Engineering student &middot; Machine Learning enthusiast
+              Informatics Engineering Graduate &middot; Machine Learning enthusiast
             </motion.p>
 
             <motion.p
