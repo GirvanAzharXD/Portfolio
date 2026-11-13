@@ -63,6 +63,16 @@ const projects = [
   github: 'https://github.com/GirvanAzharXD/dana-desa-jawa-barat-power-bi',
   featured: true
 },
+{
+  id: 7,
+  title: 'Harga Cabai Rawit Merah di Indonesia, 2025-2026',
+  description: 'An interactive Looker Studio dashboard tracking Cabai Rawit Merah prices across 32 Indonesian provinces from January 2025 to November 2026, using official PIHPS Bank Indonesia data: monthly trends, a province-by-month heatmap, and a 23-month ranking.',
+  image: '/images/projects/HargaPangan.png',
+  technologies: ['Looker Studio', 'Google Sheets', 'PIHPS BI'],
+  github: 'https://github.com/GirvanAzharXD/harga-cabai-rawit-merah-looker-studio',
+  live: 'https://datastudio.google.com/reporting/4a6c307f-a88a-40bf-887b-83b86f692efc',
+  featured: true
+},
 
 ];
 
