@@ -12,7 +12,7 @@ export const emailjsConfig = {
   publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
   
   // Email tujuan (email Anda)
-  toEmail: import.meta.env.VITE_PORTFOLIO_EMAIL,
+  toEmail: import.meta.env.VITE_PORTFOLIO_EMAIL || 'girvanazharr@gmail.com',
   
   // Nama Anda
   toName: 'Mochamad Girvan Azhar',

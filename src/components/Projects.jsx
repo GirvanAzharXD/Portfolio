@@ -53,7 +53,17 @@ const projects = [
     github: 'https://github.com/GirvanAzharXD/streamlit-puskesmas',
     live: 'https://visualisasi-data-deskriptif-pembiayaan-puskesmas.streamlit.app/',
     featured: true
-  }
+  },
+  {
+  id: 6,
+  title: 'Dana Desa Jawa Barat 2024',
+  description: 'Power BI dashboard asking whether larger village funds mean more prosperous villages, built from 2024 Dana Desa allocation (DJPK) and poverty data (BPS) for 19 regencies in West Java. Finding: 99.91% of Rp6.33 trillion was disbursed, but the top 10 regencies took 68.6% of it, and larger funds did not mean lower poverty.',
+  image: '/images/projects/DanaDesa.png',
+  technologies: ['Power BI', 'DAX', 'Power Query', 'Excel'],
+  github: 'https://github.com/GirvanAzharXD/dana-desa-jawa-barat-power-bi',
+  featured: true
+},
+
 ];
 
 // The frame shows the whole screenshot uncropped (object-contain) and
