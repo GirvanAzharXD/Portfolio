@@ -73,6 +73,17 @@ const projects = [
   live: 'https://datastudio.google.com/reporting/4a6c307f-a88a-40bf-887b-83b86f692efc',
   featured: true
 },
+{
+  id: 8,
+  title: 'Gempa Bumi di Indonesia, 2024-2026',
+  description: 'A Tableau Public dashboard mapping 2,280 earthquakes (M4.5+) across Indonesia from January 2024 to November 2026, using USGS Earthquake Catalog data: a seismic map, monthly trends, and magnitude and depth distributions. Finding: aftershock spikes followed the M7.4 Bitung (April 2026, 179 quakes) and M7.8 Ende (August 2026, 266 quakes) events, while most quakes were shallow (1,750) and small (M4.5-4.9: 1,768).',
+  image: '/images/projects/Gempa.png',
+  technologies: ['Tableau Public', 'Python', 'Pandas', 'USGS'],
+  github: 'https://github.com/GirvanAzharXD/gempa-indonesia-tableau',
+  live: 'https://public.tableau.com/app/profile/mochamad.girvan.azhar/viz/GempaBumidiIndonesia20242026/GempaBumidiIndonesia20242026',
+  featured: true
+},
+
 
 ];
 
