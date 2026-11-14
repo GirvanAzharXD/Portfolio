@@ -38,7 +38,7 @@ const Footer = () => {
         </nav>
 
         <div className="flex flex-col gap-1 border-t border-line pt-6 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2025 Mochamad Girvan Azhar. All rights reserved.</p>
+          <p>© 2026 Mochamad Girvan Azhar. All rights reserved.</p>
           <p>Built with React, Vite, Tailwind CSS &amp; Framer Motion</p>
         </div>
       </div>
