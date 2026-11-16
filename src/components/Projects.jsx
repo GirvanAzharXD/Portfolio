@@ -83,6 +83,15 @@ const projects = [
   live: 'https://public.tableau.com/app/profile/mochamad.girvan.azhar/viz/GempaBumidiIndonesia20242026/GempaBumidiIndonesia20242026',
   featured: true
 },
+{
+  id: 9,
+  title: 'Apik Laundry',
+  description: 'A web-based laundry management system built as a team academic project (PPPL course, Group 2, class 4IA19), with separate roles for customers, admins, and owners. It runs on Supabase (PostgreSQL) for database and auth, and a Flask ML API for revenue forecasting, inventory prediction, and an AI chatbot that answers customer FAQs.',
+  image: '/images/projects/ApikLaundry.png',
+  technologies: ['Vue.js', 'Supabase', 'PostgreSQL', 'Python', 'Flask', 'scikit-learn', 'Tailwind CSS'],
+  github: 'https://github.com/GirvanAzharXD/4IA19_Kelompok2_ApikLaundry',
+},
+
 
 
 ];
